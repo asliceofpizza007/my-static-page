@@ -1,9 +1,16 @@
 <template lang="pug">
-router-view
+#Index index
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { TimelineLite } from 'gsap'
+
 export default defineComponent({
-  name: 'APP'
+  name: 'Index',
+  setup () {
+    return {
+
+    }
+  }
 })
 </script>
